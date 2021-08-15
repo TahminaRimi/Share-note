@@ -1,0 +1,205 @@
+body{
+    background-color:cornsilk;
+}
+#pagecontroll {
+   width: 960px;
+}
+#hrln
+{
+    background: black;
+    height: 5px;
+}
+#companyname,#navigation,#phone 
+{
+    display: inline;
+    height: 30px;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 13pt;
+}
+#companyname
+{
+    float: left;
+    font-family: cursive;
+}
+#navul
+{
+    list-style: none;
+    display: inline;
+}
+#navul li
+{
+    display: inline;
+    padding: 15px;
+}
+#navul li a 
+{
+    text-decoration: none;
+}
+#navul li a:hover
+{
+    background: yellow;
+}
+#navigation
+{
+    float: left;
+}
+#settings
+{
+    float: right;
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+#banner
+{
+    width: 960px;
+    background-color: aqua;
+    position: relative;
+    top: 25px;
+}
+#picture
+{
+    position: absolute;
+    background: brown;
+    width: 100%;
+    height: 100%;
+    background: RED;
+}
+#picture img
+{
+    height: 400px;
+    width: 100%;
+}
+#text1
+{
+    height: 40px;
+    width: 400px;
+    background: none;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 26pt;
+    color:antiquewhite;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#text2
+{
+    height: 25px;
+    width: 320px;
+    background: none;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-size: 13pt;
+    text-align: left;
+    color: yellow;;
+    border-radius: 10px;
+    font-weight: 550;
+    font-family: monospace;
+}
+#text3
+{
+    height: 20px;
+    width: 120px;
+    background: black;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    font-size: 13pt;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid black;
+    border-radius: 50px;
+    color:yellow;
+}
+#text3:hover{
+    background-color:blueviolet;
+}
+#blog{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 500px;
+}
+#blog1 {
+    background: yellow;
+    left: 80px;
+}
+#blog2{
+    
+    background: red;
+    left: 350px;
+}
+#blog3{
+    background: yellow;
+    left: 620px;
+}
+
+.rad{
+	border-radius:15px;
+}
+.bs{
+    position: absolute;
+    width: 250px;
+    height: 200px; 
+}
+.blog11{
+    position: absolute;
+    background: black;
+    width: 45px;
+    height: 45px;
+    top: 50px;
+    left: 20px;
+    border-radius: 80px;
+    color: white;
+    font-size: 15pt;
+    line-height: 2;
+    
+}
+.blog12{
+    position: absolute;
+
+    top: 100px;
+    left: 20px;
+    color: black;
+    font-size:11pt;
+    line-height: ;
+}
+.blog13{
+    position: relative;
+    text-align: justify;
+    top: 128px;
+    color: black;
+    font-size:9pt;
+    padding: 0 20px;
+    overflow: hidden;
+    font-weight: 450;
+}
+.b{
+    font-weight: 700;
+}
+
+#post{
+    position: relative;
+    top: 500px;
+    padding: 0 300;
+}
+#back{
+    position: relative;
+    top: 900px;
+    font-size: 18pt;
+    height: 100px;
+}
+
+
+.comm{
+    display:block;
+    position:absolute;
+    clear:both;
+    left:-9px;
+    top:180px;
+    width:80%;
+}
